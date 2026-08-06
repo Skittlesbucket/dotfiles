@@ -50,8 +50,8 @@ quit-after-last-window-closed = true
 window-new-tab-position = current
 
 
-# font-family = MesloLGS NF
-font-family = Monaspace Neon
+font-family = MesloLGS NF
+# font-family = Monaspace Neon
 font-size = 16
 
 #keybind = super+alt+j=goto_split:down
