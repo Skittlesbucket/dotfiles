@@ -248,6 +248,10 @@ if.app-id = 'com.bitwarden.desktop'
 run = "move-node-to-workspace B"
 
 [[on-window-detected]]
+if.app-id = 'com.microsoft.edgemac'
+run = "move-node-to-workspace E"
+
+[[on-window-detected]]
 if.app-id = 'org.mozilla.firefox'
 run = "move-node-to-workspace F"
 
@@ -271,8 +275,12 @@ run = "move-node-to-workspace S"
 if.app-id = 'com.vivaldi.Vivaldi'
 run = "move-node-to-workspace V"
 
+[[on-window-detected]]
+if.app-id = 'com.apple.MobileSMS'
+run = "move-node-to-workspace 5"
+
 [workspace-to-monitor-force-assignment]
 B = 'built-in'
 M = 'built-in'
 S = 'built-in'
-Z = 'G81SF'
+5 = 'built-in'

@@ -50,8 +50,8 @@ quit-after-last-window-closed = true
 window-new-tab-position = current
 
 
-font-family = MesloLGS NF
-# font-family = Monaspace Neon
+#font-family = MesloLGS NF
+font-family = Monaspace Neon
 font-size = 16
 
 #keybind = super+alt+j=goto_split:down
@@ -62,6 +62,9 @@ font-size = 16
 split-divider-color = 87CEFA
 #
 # quick terminal
-keybind = global:option+t=toggle_quick_terminal
-quick-terminal-position = center
-quick-terminal-size = 60%
+keybind = global:ctrl+shift+t=toggle_quick_terminal
+quick-terminal-position = bottom
+quick-terminal-size = 500px,1500px
+# 80%
+
+command=/opt/homebrew/bin/tmux new-session -A -t session
